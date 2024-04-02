@@ -25,7 +25,7 @@ console.log("The Number1 After Swaping is as:", number1);
 console.log("The Number2 After Swaping is as:", number2);
 // This applies to TypeScript. Create a string variable and try changing its type.
 //let message:string;
-//message=10;  //error can,t assign string a number 10 
+//message=10;  //error can,t assign string a number 10
 //Use the modulus operator to find the remainder of two numbers.
 let modulus;
 modulus = number2 % number1; //number1=20,number2=10
