@@ -30,3 +30,32 @@ console.log("The Number2 After Swaping is as:", number2);
 let modulus;
 modulus = number2 % number1; //number1=20,number2=10
 console.log("The Modolus of two number is as", modulus);
+//Increment a variable's value by 1 using two different methods.
+let counter = 0;
+console.log("Before the Counter is incremented", counter);
+counter++; //first method
+console.log("First method After the Counter is incremented", counter); //counter is 1 here
+let counter2 = counter + 1; //second method   1+1=2
+console.log("Second method to increment the counter", counter2);
+//Given three boolean variables, write expressions for AND, OR, and NOT gates.
+//Show examples of using compound assignment operators.
+//Write a program to check if a number is even or odd.
+let num = 10; //check num is even or odd
+let count = 0;
+if (num % 2 == 0) {
+    count++;
+}
+if (count == 1) {
+    console.log("The Given Number is Even", num);
+}
+else {
+    console.log("The Given Number is Odd", num);
+}
+//Check if a person is eligible to vote.
+let person_age = 18;
+if (person_age >= 18) {
+    console.log("The Respective person is Eligible to vote");
+}
+else {
+    console.log("The Respective Person is not Eligible to vote");
+}
