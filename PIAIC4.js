@@ -38,7 +38,20 @@ console.log("First method After the Counter is incremented", counter); //counter
 let counter2 = counter + 1; //second method   1+1=2
 console.log("Second method to increment the counter", counter2);
 //Given three boolean variables, write expressions for AND, OR, and NOT gates.
+let a = true;
+let b = false;
+let c = true;
 //Show examples of using compound assignment operators.
+let marks1 = 76;
+// Using += operator to add 10 to marks
+marks1 += 10; // marks = marks + 10;
+// Using -= operator to subtract 5 from marks
+marks1 -= 5; // marks = marks - 5;
+// Using *= operator to multiply marks by 2
+marks1 *= 2; // marks = marks * 2;
+// Using /= operator to divide marks by 4
+marks1 /= 4; // marks = marks / 4;
+console.log("Final marks:", marks1);
 //Write a program to check if a number is even or odd.
 let num = 10; //check num is even or odd
 let count = 0;
@@ -58,4 +71,70 @@ if (person_age >= 18) {
 }
 else {
     console.log("The Respective Person is not Eligible to vote");
+}
+//Assign a grade based on a numerical score.
+let marks = 76;
+if (marks >= 80 && marks <= 100) {
+    console.log("Your Grade is A");
+}
+else if (marks >= 60 && marks < 80) {
+    console.log("Your Grade is B+");
+}
+else if (marks >= 50 && marks < 60) {
+    console.log("Your Grade is B");
+}
+else if (marks >= 0 && marks < 50) {
+    console.log("Your Grade is F");
+}
+else {
+    console.log("Invalid marks entered.");
+}
+// Find the maximum of three numbers.
+let no1 = 10;
+let no2 = 90;
+let no3 = 30;
+if (no1 >= no2 && no1 >= no3) {
+    console.log("The Maximum number is as:", no1);
+}
+else if (no2 >= no1 && no2 >= no3) {
+    console.log("The Maximum number is as:", no2);
+}
+else if (no3 >= no1 && no3 >= no2) {
+    console.log("The Maximum number is as:", no3);
+}
+//Check if a given year is a leap year.
+let leap_year = 2024;
+let count2 = 0;
+if (leap_year % 4 == 0) {
+    count2++;
+}
+if (count2 > 0) {
+    console.log("The Given year is leap year:", leap_year);
+}
+else {
+    console.log("The Given year is not leap year:", leap_year);
+}
+//Formula
+//(32°F − 32) × 5/9
+// Write a program that converts temperature from Fahrenheit to Celsius.
+let temperature = 37;
+let celsius;
+celsius = ((temperature - 32) * 5) / 9;
+console.log("The Temperature in celsius is as:", celsius);
+// Check if a number is positive, negative, or zero.
+let number_to_check = -10;
+if (number_to_check < 0) {
+    console.log("The Number is Negative", number_to_check);
+}
+else if (number_to_check > 0) {
+    console.log("The Number is Positive", number_to_check);
+}
+else {
+    console.log("The number is zero", number_to_check);
+}
+//Write a program that prints the multiplication table of a given number up to 10.
+let table = 10;
+console.log("The Table of 10 is as:");
+for (let i = 1; i <= 10; i++) {
+    console.log(`${table} x ${i} = ${table * i}`);
 }
